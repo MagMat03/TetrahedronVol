@@ -1,0 +1,15 @@
+{
+  "dataset_root": ".",
+  "dataset_contract": "tsgr_public_dataset_v1",
+  "requested_workers": 8,
+  "resolved_workers": 8,
+  "training_image_count": 6375,
+  "test_take_count": 2550,
+  "unique_training_cell_count": 255,
+  "fold_count": 24,
+  "metadata_read_elapsed_s": 3.419778099999803,
+  "training_run_index_elapsed_s": 0.033045599999695696,
+  "fold_generation_elapsed_s": 2.4627534000001106,
+  "total_elapsed_s": 6.029694500000005,
+  "run_discovery_strategy": "parallel_unique_cell_index_with_direct_runs_fast_path"
+}

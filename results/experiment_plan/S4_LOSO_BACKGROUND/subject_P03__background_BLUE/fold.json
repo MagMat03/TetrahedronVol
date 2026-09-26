@@ -1,0 +1,72 @@
+{
+  "scenario": "S4_LOSO_BACKGROUND",
+  "fold_id": "subject_P03__background_BLUE",
+  "held_out_subject": "P03",
+  "held_out_background": "BLUE",
+  "fold_status": "active",
+  "deferred": false,
+  "dataset_root": ".",
+  "dataset_contract": "tsgr_public_dataset_v1",
+  "training_image_count": 3400,
+  "test_take_count": 170,
+  "training_subjects": [
+    "P01",
+    "P02",
+    "P04",
+    "P05"
+  ],
+  "training_backgrounds": [
+    "BLACK",
+    "WHITE"
+  ],
+  "training_gestures": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "I",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y"
+  ],
+  "test_subjects": [
+    "P03"
+  ],
+  "test_backgrounds": [
+    "BLUE"
+  ],
+  "test_gestures": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "I",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y"
+  ],
+  "processed_training_sessions": 136,
+  "missing_training_runs": 0,
+  "incomplete_test_annotations": 0,
+  "ready_for_model_building": true,
+  "ready_for_evaluation": true,
+  "leakage_policy": "Formal masks, weights, covariance, thresholds, and calibration must be learned from this fold's training manifest only."
+}

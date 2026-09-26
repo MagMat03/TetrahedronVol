@@ -1,0 +1,77 @@
+{
+  "scenario": "S2_LOBO",
+  "fold_id": "background_WHITE",
+  "held_out_subject": null,
+  "held_out_background": "WHITE",
+  "fold_status": "active",
+  "deferred": false,
+  "dataset_root": ".",
+  "dataset_contract": "tsgr_public_dataset_v1",
+  "training_image_count": 4250,
+  "test_take_count": 850,
+  "training_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "training_backgrounds": [
+    "BLACK",
+    "BLUE"
+  ],
+  "training_gestures": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "I",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y"
+  ],
+  "test_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "test_backgrounds": [
+    "WHITE"
+  ],
+  "test_gestures": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "I",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "Y"
+  ],
+  "processed_training_sessions": 170,
+  "missing_training_runs": 0,
+  "incomplete_test_annotations": 0,
+  "ready_for_model_building": true,
+  "ready_for_evaluation": true,
+  "leakage_policy": "Formal masks, weights, covariance, thresholds, and calibration must be learned from this fold's training manifest only."
+}

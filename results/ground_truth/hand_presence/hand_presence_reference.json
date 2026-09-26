@@ -1,0 +1,27 @@
+{
+  "schema_version": "tsgr_hand_presence_reference_v1",
+  "created_at_utc": "2026-09-26T14:44:39.971226+00:00",
+  "dataset_root": ".",
+  "dataset_contract": "tsgr_public_dataset_v1",
+  "reference_method": "MediaPipe IMAGE high_recall ordered 4-pass chain on NO_GESTURE frames",
+  "gesture_interval_rule": "annotated gesture frames are HAND_PRESENT without detector execution",
+  "source_annotation_hand_missing_frames_used": false,
+  "canonical_annotations_updated": false,
+  "canonical_annotation_count_updated": 0,
+  "take_count": 2550,
+  "frame_count": 414456,
+  "mediapipe_evaluated_frame_count": 274048,
+  "reference_error_frame_count": 0,
+  "requested_workers": 16,
+  "resolved_workers": 16,
+  "elapsed_wall_time_s": 629.4144191,
+  "reference_sha256": "901debc8e7344245087e3cef3cd49e1558daf192e3306222ba7e61a01fc18a84",
+  "image_detection_profile": "high_recall",
+  "handedness_policy": "ignore_handedness",
+  "image_detection_pass_names": [
+    "standard",
+    "relaxed",
+    "padded_relaxed",
+    "padded_max_recall"
+  ]
+}
